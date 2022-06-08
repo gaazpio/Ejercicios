@@ -1,0 +1,28 @@
+var iFactoriaF = 1;
+var iFactoriaSI =1
+for (let x=1; x<=10; x++){
+  iFactoriaF = iFactoriaF * x;
+  console.log(iFactoriaF)
+}
+
+var max=9
+var i=0
+var iFactoriaW=1
+while(i<=max){
+    i++
+    iFactoriaW=iFactoriaW*i
+    console.log(iFactoriaW)
+}
+
+var max=20
+var i=0
+var iFactoriaW=1
+while(i<=max){
+    i++
+    iFactoriaW=iFactoriaW*i
+  
+    if(iFactoriaW==3628800){
+        break;
+    }
+    console.log(iFactoriaW)
+}
