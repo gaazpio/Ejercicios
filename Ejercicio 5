@@ -1,0 +1,8 @@
+let altura=180;
+let altura2=1.80;
+let peso=78.1;
+
+console.log( Math.ceil(altura)) 
+console.log(Math.floor(peso))
+
+console.log( Number.MAX_VALUE + 1 === Number.MAX_VALUE ) 
