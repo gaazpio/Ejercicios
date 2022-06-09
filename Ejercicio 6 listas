@@ -1,0 +1,31 @@
+const listaCompra=["Patatas","Huevos","Manzanas","Fresas","Carne","Zanahorias"]
+listaCompra.push("Aceite_Girasol")
+listaCompra.pop()
+console.log(listaCompra)
+
+const pelis=[
+{titulo:"Perdidos",
+director:"Alvaro",
+Fecha: new Date(2011, 3, 30)
+},
+
+{titulo:"Searching",
+director:"Manuel turizo", 
+Fecha: new Date(2020,09,29)
+},
+
+{titulo:"who", 
+director:"David tennat", 
+Fecha: new Date(2009,01,13)}
+]
+
+
+const pelisPost= pelis.filter(date => date.Fecha > new Date(2010,01,01))
+
+
+const directores= pelis.map((valor) =>`${valor.director}`)
+const titulos= pelis.map ((valor)=> `${valor.titulo}`)
+
+const all= directores.concat(titulos)
+const directores_titulos = [...directores, ...titulos]
+
