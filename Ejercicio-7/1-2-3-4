@@ -1,0 +1,44 @@
+//EJERCICIO 1
+
+const familia=["David","Yolanda","Pablo","Alvaro"]
+const familia_set= new Set(familia)
+
+
+familia_set.add("David")
+familia_set.add ("Javascript")
+
+//EJERCICIO 2
+
+const objeto_perso={
+    nombre:"David",
+    apellido:"Gazpio",
+    edad:18,
+    altura:183,
+    eresDesarrollador:true
+}
+const edad = objeto_perso.edad
+
+const list = [objeto_perso, {
+    nombre:"Alvaro",
+    apellido:"Jimenez",
+    edad:29,
+},
+{
+    nombre:"Daniel",
+    apellido:"Fernandez",
+    edad:25
+}]
+const listord= list.sort((a,b)=> b.edad-a.edad)
+console.log(listord)
+
+//EJERCICIO 3
+const date_hoy= new Date()
+const fecha_naci= new Date(2002,11,7)
+const mastarde = date_hoy > fecha_naci
+const dianaci= fecha_naci.getDate()
+const mesnaci= fecha_naci.getMonth()
+const añonaci= fecha_naci.getFullYear()
+
+//EJERCICIO 4
+
+ const edad = prompt("¿Cual es tu edad")
