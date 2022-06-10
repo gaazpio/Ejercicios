@@ -1,0 +1,19 @@
+const isString = val =>{
+        if(typeof val === "string"){
+            return "Es de tipo string"
+        }
+
+        throw new Error("Debe de ser un string ")
+}
+console.log(isString("patata"))
+
+
+try {
+    console.log("Ha entrado en el try")
+    console.log(valx2(palabra))
+    console.log("Ha superado el try")
+
+} catch (e) {
+    console.error(e)
+    console.error("ERROR")
+}
