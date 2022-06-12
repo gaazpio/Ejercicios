@@ -1,0 +1,29 @@
+npm initi -y
+
+ function suma(a,b){
+
+    return a+b;
+
+}
+function multi(a,b){
+
+    return a*b;
+}
+
+console.log(suma(5,10))
+console.log(multi(7,10))
+
+module.exports={
+    suma,
+    multi
+}
+
+
+import  * as operaciones from "./client-controler"
+console.log(operaciones.suma(1,2))
+console.log(operaciones.multi(2,1))
+
+npm i chalk
+
+console.log(chalk.green(operaciones.suma(1,2)))
+console.log(chalk.green(operaciones.multi(2,1)))
