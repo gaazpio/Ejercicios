@@ -1,0 +1,15 @@
+npm install eslint --save-dev
+npm init @eslint/config
+
+
+ "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+
+ "quotes": [
+            "error",
+            "double"
+        ],
+        
+         "lint-fix": "esLint --fix ."
+         npm run lint-fix
